@@ -2,93 +2,117 @@
 <html>
 <head>
 	<title>Contact Me</title>
+
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-	<section id="Header">
-
-		<div id="label">
-			<h1>
-			Thomas Stevens
-			</h1>
-		</div>
-		
-		<div id="Page_Links">
-		
-			<a id="about" href="#" link="#">
-			About 
-			</a>
-
-			|
-				
-			<a id="portfolio" href="#" link="#">
-			Portfolio
-			</a>
-
-			|
-
-			<a id="contact"
-			href="#" link="#">
-			Contact
-			</a>
-
-		</div>
-
-	</section>
-
-	<section id="body">
-
-		<div id="main_content">
-
-		<h2>Contact Me</h2>
-		
-		<form>
-
-			<h3>Name</h3>
-
-				<input id="Name" type="text" name="Full Name" value="John Smith">
-
-			<h3>Email</h3>
-
-				<input id="Email" type="text" name="Full Name" value="example@gmail.com">
-
-			<h3>Message</h3>
-
-				<input id="Message" type="text" name="Message">
-
-
-			<button type="button">Submit</button>
-			
-			</form>
-		</div>	
-		
-		<div id="Side_Content">
-			
-			<h2>Side Content
-			</h2>
-
-		<img class="Social_links" src="assets/images/github.png" alt="github Link">
-
-
-		<img class="Social_links" src="assets/images/Linked_In.png" alt="Linked In Link">
-
-		<img class="Social_links" src="assets/images/SO.png" alt="Stack Overflow Link">
-
-		</div>
-
-
-
-	</section>
-
-	<section id="Footer">
-
-		<h6>
-		Copyright
-		</h6>
-
-	</section>
 
 </head>
 <body>
 
+	<div id ="header">
+
+		<div id="label">
+
+			<h1>Thomas Stevens
+			</h1>
+
+		</div>
+			
+		<div id=links_container>
+
+
+			<a href="contact.html" class="links" target="_blank">Contact
+			</a>
+
+			<p class="links">|
+			</p>
+
+			<a href="Portfolio.html" class="links" target="_blank">Portfolio
+			</a>
+
+			<p class="links">|
+			</p>
+
+			<a href="index.html" class="links" target="_blank">About
+			</a>
+
+		</div>
+		
+		
+	</div>
+
+	<div id="content">
+		
+		<div id="main_content">
+
+			<h2>Contact
+			</h2>
+
+			<form>
+
+			<h3>
+				Name
+			</h3>	
+
+			<input type="text" value="Name">
+
+			<h3>
+				Email
+			</h3>	
+
+			<input type="text" value="Email">
+
+			<h3>
+				Message
+			</h3>	
+
+			<input id="message" type="text">
+
+			<br>
+
+			<button type="button">Submit
+			</button>
+
+			</form>
+
+		</div>
+
+		<div id="side_content">
+			
+			<h2>Connect with me
+			</h2>
+
+			<a class="CWM_links" href="#">
+
+				<img src="assets/images/github.png" alt="github link" >
+
+			</a>
+
+			<a class="CWM_links" href="#">
+
+				<img src="assets/images/Linked_In.png" alt="Linked_In link" >
+
+			</a>
+
+			<a class="CWM_links" href="#">
+
+				<img src="assets/images/SO.png" alt="Stack_Overflow link" >
+
+			</a>
+
+
+
+
+				
+		</div>
+
+	</div>
+
+	<div id="footer">
+			
+			<h6>copyright
+			</h6>
+
+	</div>
+		
 </body>
 </html>
