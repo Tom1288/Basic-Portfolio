@@ -9,45 +9,47 @@ body {
 #header {
 
 	float: left; 
+	position: relative;
 	width: 100%;
 	height: 20%;
 	border: solid;
 	border-color: #cccccc;
 	background-color:  #ffffff;
 
-
 }
 
 #label	{
 
 	float: left;
+	position: absolute;
+	bottom: 0;
 	margin: 4% 2% 0% 5%;
 	padding: 0% 2% 0% 2%;
 	border-radius: 15% 15% 0% 0%;
 	background-color: #4aaaa5;
+	color: white;
 
 }
 
 #links_container {
-
-	margin: 0;
-	margin-right: 5%;
-
+	
+	width: 30%;
+	float: right;
 
 }
 
 .links {
 
-	float: right;
+	padding: 15% 1% 5% 1%;
+	float: left;
 	color: #777777;
-	margin-top: 6%;
 	text-decoration: none;
 
 
 }
 
 #content {
-
+	
 	float: left;
 	width: 100%;
 	height: 100%;
@@ -63,36 +65,48 @@ h2 {
 	padding-left: 2%;
 	border-bottom: solid;
 	border-color: #dddddd;
-	color:  #4aaaa5
+	color: #4aaaa5;
 
 }
 
 #main_content {
 
 	float: left;
-	width: 650px;
-	margin: 2% 5% 2% 5%;
+	width: 45%;
+	margin: 2% 5% 2% 12%;
 	border: solid;
 	border-color: #dddddd;
 	background-color:  #ffffff;
 
 }
 
+
+#side_content {
+
+	float: left;
+	width: 20%;
+	margin: 2% 10% 2% 7%;
+	border: solid;
+	border-color: #dddddd;
+	background-color:  #ffffff;
+
+}
+
+
 #about_img	{
 
-	margin: 0;
-	padding: 2%;
+	width: 50%;
 	width: 225px;
 	
 }
 
 .about_me {
 
-	
 	float: left;
 	width: 50%;
 	overflow: inherit;
 	margin: 2%;
+
 }
 
 p {
@@ -101,16 +115,6 @@ p {
 	padding: 0% 1% 0% 1%;
 	margin: 0;
 	
-}
-
-#side_content {
-	float: left;
-	width: 250px;
-	margin: 2% 5% 2% 5%;
-	border: solid;
-	border-color: #dddddd;
-	background-color:  #ffffff;
-
 }
 
 .CWM_links {
@@ -123,6 +127,7 @@ p {
 
 #footer {
 
+	clear: both;
 	width: 100%;
 	height: 20%;
 	float: left;
@@ -166,14 +171,36 @@ button {
 
 } 
 
-.Img_container {
+.Portfolio_container {
 
+	float: left;
+	position: relative;
+	width: 40%;
+	height: 15%;
 	margin: 5%;
-
 }
 
 .Portfolio_label {
 
 	position: absolute;
+	width: 90%;
+	bottom: 5%;
+	margin: 0;
+	padding: 5%;
+	background-color: #4aaaa5;
+	text-align: center;
+	color: white;
 
 }
+
+.Portfolio_img {
+
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+
+}
+
